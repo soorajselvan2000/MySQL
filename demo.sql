@@ -1,3 +1,12 @@
+-- Create the students table
+CREATE TABLE students (
+    id INT PRIMARY KEY,
+    name VARCHAR(100),
+    age INT,
+    department VARCHAR(50),
+    grade INT
+);
+
 -- Insert 4 student records
 INSERT INTO students (id, name, age, department, grade) VALUES
 (1, 'Alice Johnson', 21, 'Computer Science', 88),
